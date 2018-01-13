@@ -4,7 +4,9 @@ Projekt u Szanownego Kłeczka - złotego człowieka.
 # Ja to tak rozumiem:
 
 -> Program uruchamiamy, odpadala się main i pyta o nazwę pliku z strukturą sieci.
+
 -> Funkcja <b>loadFactoryStructure()</b> tworzy Fabrykę (Faktory, Wokerów, Rampy, Storehousy.
+
 -> Pojawia się menu:
 1. Rozpocznij symulacje o zadanej liczbnie tur.
 2. Ustaw częstość tworzenia raportów stanu symulacji (domyślnie tylko na koniec)
