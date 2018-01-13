@@ -46,5 +46,7 @@ Uruchamia się funkcja <b>generateStructureReport</b> i raport o strukturze siec
 <b>Ad 7.</b>
 Niszczy obiekty destruktorami, zapisuje strukture do pliku (<b>saveFactoryStructure()</b>), kończy działanie programu.
 
-#Sama symulacja czyli Ad 1.
+# Sama symulacja czyli Ad 1.
+
+
 
