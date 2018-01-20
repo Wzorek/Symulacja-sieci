@@ -30,7 +30,7 @@ IntervalReportNotifer -
 
 Package - 
 
-typy i enumy -
+<b>[ GOTOWE ]</b> typy i enumy - wszystko w typy.hpp
 
 funkcja simulate - 
 

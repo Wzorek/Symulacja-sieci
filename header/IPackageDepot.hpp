@@ -3,10 +3,10 @@
 
 class IPackageDepot{
 public:
-    virtual void push(Package);
-    virtual bool empty();
-    virtual int size();
-    virtual Package* view();
+    virtual void push(Package) = 0;
+    virtual bool empty() = 0;
+    virtual int size() = 0;
+    virtual std::vector<Package> view() = 0;
 };
 
 #endif // IPACKAGEDEPOT_HPP_INCLUDED
