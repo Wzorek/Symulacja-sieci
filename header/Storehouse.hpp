@@ -1,17 +1,19 @@
 #ifndef STOREHOUSE_HPP_INCLUDED
 #define STOREHOUSE_HPP_INCLUDED
-#include <IPackageReceiver.hpp>
-#include <IPackageDepot.hpp>
-enum ReceiverType{WORKER, STOREHOUSE};
+#include "IPackageReceiver.hpp"
+#include "IPackageDepot.hpp"
+#include "typy.hpp"
+#include <vector>
+#include "Package.hpp"
 
-class Storehouse::public IPackageReceiver{
+class Storehouse:public IPackageReceiver{
 private:
     ElementID id;
     IPackageDepot* packageDepot;
 public:
-    void Storehouse(ElementID);
+    Storehouse(ElementID);
     void receivePackage(Package);
-    Package[] viewDepot();
+    std::vector<Package> viewDepot();
     ReceiverType getReceiverType;
     ElementID getId();
 

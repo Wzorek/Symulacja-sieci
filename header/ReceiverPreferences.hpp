@@ -4,15 +4,15 @@
 #include <utility>
 
 class ReceiverPreferences {
-`   private:
-        std:map <IPackageReceiver*, double> probabilities;
+    private:
+        std::map <IPackageReceiver*, double> probabilities;
     public:
-        std:map <IPackageReceiver*, double> getPreferences();
-        void setPreferences(std:map <IPackageReceiver*, double>);
+        std::map <IPackageReceiver*, double> getPreferences();
+        void setPreferences(std::map <IPackageReceiver*, double>);
         void addReceiver(IPackageReceiver*);
         void addReceiverWithProbability(IPackageReceiver*, double);
         void removeReceiver(IPackageReceiver*);
         IPackageReceiver* drawREceiver(double);
-        std:pair<IPackageReceiver*,double>[] view();
+        std::pair<IPackageReceiver*,double> view();
 };
 #endif // RECEIVERPREFERENCES_HPP_INCLUDED

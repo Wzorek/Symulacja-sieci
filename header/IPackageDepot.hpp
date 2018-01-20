@@ -3,10 +3,10 @@
 
 class IPackageDepot{
 public:
-    virtual push(Package);
+    virtual void push(Package);
     virtual bool empty();
     virtual int size();
-    virtual Package[] view();
+    virtual Package* view();
 };
 
 #endif // IPACKAGEDEPOT_HPP_INCLUDED

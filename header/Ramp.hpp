@@ -1,11 +1,12 @@
 #ifndef RAMP_HPP_INCLUDED
 #define RAMP_HPP_INCLUDED
+#include "typy.hpp"
 
-class Ramp:class PackageSender{
+class Ramp: public PackageSender{
 private:
     ElementID id;
-    void TimeOffset deliveryInterval;
-    void Ramp(ElementID, TimeOffset);
+    TimeOffset deliveryInterval();
+    Ramp(ElementID, TimeOffset);
     void deliverGoods(Time);
     TimeOffset getDelivertInterval;
     ElementID getId();

@@ -1,8 +1,8 @@
 #ifndef FACTORY_HPP_INCLUDED
 #define FACTORY_HPP_INCLUDED
-#include <Worker.hpp>
-#include <Storehouse.hpp>
-#include <Ramp.hpp>
+#include "Worker.hpp"
+#include "Storehouse.hpp"
+#include "Ramp.hpp"
 #include <list>
 class Factory{
 private:
@@ -12,7 +12,7 @@ private:
 public:
     Ramp[] getRamps();
     void addRamp(ramp);
-    removeRamp(ElementID);
+    void removeRamp(ElementID);
 
     Worker[] getWorkers();
     void addWorker(Worker);

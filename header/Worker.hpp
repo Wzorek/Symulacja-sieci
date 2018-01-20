@@ -1,10 +1,13 @@
 #ifndef WORKER_HPP_INCLUDED
 #define WORKER_HPP_INCLUDED
 #include <vector>
-#include <IPackageReceiver.hpp>
-#include <IPackageQueue.hpp>
+#include "IPackageReceiver.hpp"
+#include "PackageSender.hpp"
+#include "IPackageQueue.hpp"
+#include "typy.hpp"
 
-class Worker::public IPackageReceiver, public PackageSender{
+class Worker : public IPackageReceiver, public PackageSender
+{
 private:
     ElementID id;
     TimeOffset processingDuration;
@@ -14,9 +17,9 @@ private:
 public:
     Worker(ElementID, TimeOffset, IPackageQueue*);
     void receivePackage(Package);
-    Package[] viewQueue();
+    std::vector<Package> viewQueue();
     doWork();
-    TimeOffset getProcessingDuration()
+    TimeOffset getProcessingDuration();
     Time getPackageProcessingStartTime();
     ReceiverType getReceiverType();
     ElementID getId();
