@@ -14,15 +14,15 @@ PackageSender -
 
 ReciverPreferences - 
 
-IPackageDepot - 
+<b>[ GOTOWE ]</b> IPackageDepot - nagłówek (klasa virtualna)
 
-IPackageeceiver - 
+<b>[ GOTOWE ]</b> IPackageeceiver - nagłówek (klasa virtualna)
 
-IPackageQueue - 
+<b>[ GOTOWE ]</b> IPackageQueue - nagłówek (klasa virtualna)
 
 PackageQueue - 
 
-IReportNotifer - 
+<b>[ GOTOWE ]</b> IReportNotifer - nagłówek (klasa virtualna)
 
 SpecificTurnsReportNotifer - 
 
