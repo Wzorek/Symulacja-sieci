@@ -1,5 +1,28 @@
 # Symulacja sieci
-Projekt u Szanownego Kłeczka - złotego człowieka.
+Projekt z przedmiotu Informatyka2 - AiR II WEAIiIB AGH
+
+# Co już mamy?
+Factory -
+Storehouse - 
+Ramp - 
+Worker - 
+PackageSender - 
+ReciverPreferences - 
+IPackageDepot - 
+IPackageeceiver - 
+IPackageQueue - 
+PackageQueue - 
+IReportNotifer
+SpecificTurnsReportNotifer - 
+IntervalReportNotifer - 
+Package - 
+typy i enumy -
+funkcja simulate - 
+funkcja loadFactoryStructure - 
+funkcja saveFactoryStructure - 
+funkcja generateStructureReport - 
+funkcja generateSimulationTurnReport - 
+
 
 # Ja to tak rozumiem:
 
@@ -68,5 +91,5 @@ Workerzy wykonają pracę:
 1. Jeśli <b>currentlyProcessedPackage</b> jest puste, ładujemy paczkę z <b>gueue</b>, ustawiamy <b>packageProcessingStartTime()</b> jako aktualną wartość Time.
 2. Jeśli jest tam produkt, sprawdzamy czy <b>packageProcessingStartTime()</b>+<b>processingDuration</b>=<b>Time</b>. Jeśli tak, przenosimy paczkę do <b>sendingBuffer</b>. Jeśli nie, nie robimy nic (dalej pracujemy).
 
-Sprawwdzamy czy pownniśmy wykonać report (<b>shouldGenerateReport</b>), wykonujemy jeśli trzeba. Zwiększamy Time o jeden. Patrzymy czy już koniec czy nie. Powtarzamy od nowa wszyskie fazy jeśli nie koniec.
+Sprawdzamy czy pownniśmy wykonać report (<b>shouldGenerateReport</b>), wykonujemy jeśli trzeba. Zwiększamy Time o jeden. Patrzymy czy już koniec czy nie. Powtarzamy od nowa wszyskie fazy jeśli nie koniec.
 

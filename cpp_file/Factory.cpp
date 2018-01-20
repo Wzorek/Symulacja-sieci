@@ -6,17 +6,21 @@ void Factory::addRamp(Ramp _ramp){
 }
 
 std::list<Ramp> Factory::getRamps(){
+
 }
 
 void Factory::removeRamp(){
+
 }
 
 // Workers
 
 void Factory::addWorker(){
+
 }
 
 std::list<workers> Factory::getWorkers(){
+
 }
 
 void Factory::removeWorker(){
