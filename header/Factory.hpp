@@ -4,21 +4,24 @@
 #include "Storehouse.hpp"
 #include "Ramp.hpp"
 #include <list>
+#include <vector>
+
 class Factory{
 private:
     std::list<Ramp> ramps;
-    std::list<Worker> workers;
-    std::list<Storehouse> storehouses;
+   // std::list<Worker> workers;
+    //std::list<Storehouse> storehouses;
+
 public:
-    Ramp[] getRamps();
-    void addRamp(ramp);
+    std::vector<Ramp> getRamps();
+    void addRamp(Ramp);
     void removeRamp(ElementID);
 
-    Worker[] getWorkers();
+    std::vector<Worker> getWorkers();
     void addWorker(Worker);
     void removeWorker(ElementID);
 
-    Storehouse[] getStorehouses();
+    std::vector<Storehouse> getStorehouses();
     void addStorehouse(Storehouse);
     void removeStorehouse(ElementID);
 

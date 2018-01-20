@@ -4,7 +4,7 @@
 #include <functional>
 class PackageQueue{
 private:
-    PackageQueueType queueType;
+    PackageQueueTypejj queueType;
     std::deque<Package> deque;
     std::function<Package()> _popFuntion;
 public:

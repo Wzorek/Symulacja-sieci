@@ -13,6 +13,6 @@ class ReceiverPreferences {
         void addReceiverWithProbability(IPackageReceiver*, double);
         void removeReceiver(IPackageReceiver*);
         IPackageReceiver* drawREceiver(double);
-        std::pair<IPackageReceiver*,double> view();
+        std::vector<std::pair<IPackageReceiver*,double> > view();
 };
 #endif // RECEIVERPREFERENCES_HPP_INCLUDED

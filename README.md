@@ -10,9 +10,9 @@ Ramp -
 
 Worker - 
 
-PackageSender - 
+PackageSender - nagłowek jest
 
-ReciverPreferences - 
+ReciverPreferences - nagłowek jest
 
 <b>[ GOTOWE ]</b> IPackageDepot - nagłówek (klasa virtualna)
 
@@ -20,7 +20,7 @@ ReciverPreferences -
 
 <b>[ GOTOWE ]</b> IPackageQueue - nagłówek (klasa virtualna)
 
-PackageQueue - 
+PackageQueue -  nagłowek jest
 
 <b>[ GOTOWE ]</b> IReportNotifer - nagłówek (klasa virtualna)
 
