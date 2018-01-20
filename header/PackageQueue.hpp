@@ -2,16 +2,19 @@
 #define PACKAGEQUEUE_HPP_INCLUDED
 #include <deque>
 #include <functional>
-class PackageQueue{
+#include "typy.hpp"
+#include "Package.hpp"
+
+class PackageQueue : public IPackageQueue {
 private:
-    PackageQueueTypejj queueType;
-    std::deque<Package> deque;
+    QueueType packageQueueType;
+    std::deque<Package> _deque;
     std::function<Package()> _popFuntion;
 public:
-    void PackageQueue(PackageQueueType);
+    void PackageQueue(QueueType);
     void push(Package);
     Package pop();
-    Package[] view();
+    std::deque<Package> view();
     QueueType getQueueType();
     bool isEmpty();
     int size();

@@ -8,7 +8,7 @@
 
 class Factory{
 private:
-    std::list<Ramp> ramps;
+    //std::list<Ramp> ramps;
    // std::list<Worker> workers;
     //std::list<Storehouse> storehouses;
 

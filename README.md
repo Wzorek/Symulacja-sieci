@@ -20,7 +20,7 @@ ReciverPreferences - nagłowek jest
 
 <b>[ GOTOWE ]</b> IPackageQueue - nagłówek (klasa virtualna)
 
-PackageQueue -  nagłowek jest
+PackageQueue -  nagłówek jest
 
 <b>[ GOTOWE ]</b> IReportNotifer - nagłówek (klasa virtualna)
 

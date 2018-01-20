@@ -1,10 +1,11 @@
 #ifndef WORKER_HPP_INCLUDED
 #define WORKER_HPP_INCLUDED
-#include <vector>
-#include "IPackageReceiver.hpp"
-#include "PackageSender.hpp"
 #include "IPackageQueue.hpp"
 #include "typy.hpp"
+#include "IPackageReceiver.hpp"
+#include "PackageSender.hpp"
+#include <queue>
+#include "PackageQueue.hpp"
 
 class Worker : public IPackageReceiver, public PackageSender
 {
@@ -16,13 +17,13 @@ private:
     std::vector<Package> currentlyProcessedPackage;
 public:
     Worker(ElementID, TimeOffset, IPackageQueue*);
-    void receivePackage(Package);
+    void receivePackage(Package _pack) override;
     std::vector<Package> viewQueue();
-    doWork();
+    void doWork();
     TimeOffset getProcessingDuration();
     Time getPackageProcessingStartTime();
-    ReceiverType getReceiverType();
-    ElementID getId();
+    ReceiverType getReceiverType() override;
+    ElementID getId() override;
 };
 
 #endif // WORKER_HPP_INCLUDED
