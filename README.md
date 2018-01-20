@@ -2,13 +2,13 @@
 Projekt z przedmiotu Informatyka2 - AiR II WEAIiIB AGH
 
 # Co już mamy?
-Factory -
+Factory - nagłowek jest
 
-Storehouse - 
+Storehouse - nagłowek jest
 
-Ramp - 
+Ramp - nagłowek jest
 
-Worker - 
+Worker - nagłowek jest
 
 PackageSender - nagłowek jest
 
@@ -24,15 +24,15 @@ PackageQueue -  nagłówek jest
 
 <b>[ GOTOWE ]</b> IReportNotifer - nagłówek (klasa virtualna)
 
-SpecificTurnsReportNotifer - 
+SpecificTurnsReportNotifer - nagłowek jest
 
-IntervalReportNotifer - 
+IntervalReportNotifer - nagłowek jest
 
-Package - 
+Package - nagłowek jest
 
 <b>[ GOTOWE ]</b> typy i enumy - wszystko w typy.hpp
 
-funkcja simulate - 
+funkcja simulate -
 
 funkcja loadFactoryStructure - 
 
