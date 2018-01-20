@@ -3,25 +3,45 @@ Projekt z przedmiotu Informatyka2 - AiR II WEAIiIB AGH
 
 # Co już mamy?
 Factory -
+
 Storehouse - 
+
 Ramp - 
+
 Worker - 
+
 PackageSender - 
+
 ReciverPreferences - 
+
 IPackageDepot - 
+
 IPackageeceiver - 
+
 IPackageQueue - 
+
 PackageQueue - 
-IReportNotifer
+
+IReportNotifer - 
+
 SpecificTurnsReportNotifer - 
+
 IntervalReportNotifer - 
+
 Package - 
+
 typy i enumy -
+
 funkcja simulate - 
+
 funkcja loadFactoryStructure - 
+
 funkcja saveFactoryStructure - 
+
 funkcja generateStructureReport - 
+
 funkcja generateSimulationTurnReport - 
+
 
 
 # Ja to tak rozumiem:
